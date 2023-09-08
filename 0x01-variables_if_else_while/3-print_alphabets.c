@@ -10,10 +10,10 @@
 
 int main(void)
 {
-	char CH = 'a';
+	char ch = 'a';
 	char CH = 'A';
 	
-	while (CH <= 'z')
+	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
