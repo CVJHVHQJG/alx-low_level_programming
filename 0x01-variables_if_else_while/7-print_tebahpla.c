@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Description: A C CODE
+ *
+ * Return: Always 0 (Success)
+*/
+
+int main(void)
+{
+	char ch = 'z';
+
+	while (ch >= 'a')
+	{
+		putchar(ch);
+		ch--;
+
+	}
